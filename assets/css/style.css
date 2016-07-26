@@ -33,7 +33,7 @@ body{
 	background-color: #ccc;
 	color: #777;
 }
-#total{
+.total{
 	background-color: #ccc;
 	color: #777;
 	margin: 15, 20px;
