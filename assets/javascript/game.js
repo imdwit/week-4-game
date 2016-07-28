@@ -28,9 +28,9 @@ $(document).ready(function(){
 		reset();
 	}
 
-	$('#redGem').text(total)(function(){
+	$('#redGem').click(function(){
 		total = total + red;
-		$('#yourTotal').text(total)();
+		$('#yourTotal').text(total);
 
 			if (total === numDisplayed){
 				winOne();
@@ -39,9 +39,9 @@ $(document).ready(function(){
 			}
 	});
 
-	$('#tealGem').text(total)(function(){
+	$('#tealGem').click(function(){
 		total = total + teal;
-		$('#yourTotal').text(total)();
+		$('#yourTotal').text(total);
 
 			if (total === numDisplayed){
 				winOne();
@@ -50,9 +50,9 @@ $(document).ready(function(){
 			}
 	});
 
-	$('#purpleGem').text(total)(function(){
+	$('#purpleGem').click(function(){
 		total = total + purple;
-		$('#yourTotal').text(total)();
+		$('#yourTotal').text(total);
 
 			if (total === numDisplayed){
 				winOne();
@@ -61,9 +61,9 @@ $(document).ready(function(){
 			}
 	});
 
-	$('#greenGem').text(total)(function(){
+	$('#greenGem').click(function(){
 		total = total + green;
-		$('#yourTotal').text(total)();
+		$('#yourTotal').text(total);
 
 			if (total === numDisplayed){
 				winOne();
