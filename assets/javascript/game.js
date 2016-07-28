@@ -28,47 +28,47 @@ $(document).ready(function(){
 		reset();
 	}
 
-	$('#redGem').click(function(){
+	$('#redGem').text(total)(function(){
 		total = total + red;
-		$('#yourTotal').click();
-		
+		$('#yourTotal').text(total)();
+
 			if (total === numDisplayed){
 				winOne();
 			} else if (total > numDisplayed){
-				loseOne();	
+				loseOne();
 			}
 	});
 
-	$('#tealGem').click(function(){
+	$('#tealGem').text(total)(function(){
 		total = total + teal;
-		$('#yourTotal').click();
-		
+		$('#yourTotal').text(total)();
+
 			if (total === numDisplayed){
 				winOne();
 			} else if (total > numDisplayed){
-				loseOne();	
+				loseOne();
 			}
 	});
 
-	$('#purpleGem').click(function(){
+	$('#purpleGem').text(total)(function(){
 		total = total + purple;
-		$('#yourTotal').click();
-		
+		$('#yourTotal').text(total)();
+
 			if (total === numDisplayed){
 				winOne();
 			} else if (total > numDisplayed){
-				loseOne();	
+				loseOne();
 			}
 	});
 
-	$('#greenGem').click(function(){
+	$('#greenGem').text(total)(function(){
 		total = total + green;
-		$('#yourTotal').click();
-		
+		$('#yourTotal').text(total)();
+
 			if (total === numDisplayed){
 				winOne();
 			} else if (total > numDisplayed){
-				loseOne();	
+				loseOne();
 			}
 	});
 
@@ -84,6 +84,3 @@ $(document).ready(function(){
 	}
 
 })
-
-
-
